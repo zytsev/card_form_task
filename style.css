@@ -8,19 +8,12 @@
     --fw-regular: 400;
     --fw-semi-bold: 500;
 
-    /* --clr-neutral-100: hsl(0, 0%, 100%); */
     --clr-neutral-200: #d9d9d9;
     --clr-neutral-300: #424242;
     --clr-primary-400: #000;
     --color-bg: #fff;
     --clr-important: #dd4b39;
 
-    /* --clr-primary-500: hsl(278, 94%, 30%);
-    --clr-primary-800: hsl(278, 68%, 11%);
-    --clr-accent-400: hsl(0, 100%, 66%);
-    --gradient-1: var(--clr-primary-400, --clr-primary-500); */
-
-    /* settings */
     --no-dark-mode: light;
     --dark-mode: dark light;
 
