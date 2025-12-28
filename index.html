@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Card</title>
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <section class="section">
+                <h2 class="title">Pay with your credit card.</h2>
+                <form id="form">
+                    <div>
+                        <fieldset class="fieldset">
+                            <div class="img_wrapper">
+                                <img src="./icons/card_front.svg" alt="card_front" />
+                            </div>
+
+                            <input name="name" class="input input_name" placeholder="Cardholder name" required autocomplete="cc-name" />
+                        </fieldset>
+                        <div class="info">
+                            <div class="errors error_name"></div>
+                            <div class="hints">
+                                <img src="./icons/info.svg" alt="info" />
+                                <span class="hint_text">Enter your cardholder name</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <fieldset class="fieldset">
+                            <div class="img_wrapper">
+                                <img src="./icons/card_front.svg" alt="card_front" />
+                            </div>
+                            <input name="number" class="input input_number" placeholder="Card number" required inputmode="numeric" autocomplete="cc-number" />
+                        </fieldset>
+                        <div class="info">
+                            <div class="errors error_number"></div>
+                            <div class="hints">
+                                <img src="./icons/info.svg" alt="info" />
+                                <span class="hint_text">Enter your card number</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back_block">
+                        <div>
+                            <fieldset class="fieldset">
+                                <div class="img_wrapper">
+                                    <img src="./icons/card_front.svg" alt="card_front" />
+                                </div>
+                                <input name="date" class="input input_date" placeholder="MM/YY" required autocomplete="cc-exp" inputmode="numeric" />
+                            </fieldset>
+                            <div class="info">
+                                <div class="errors error_date"></div>
+                                <div class="hints">
+                                    <img src="./icons/info.svg" alt="info" />
+                                    <span class="hint_text">Enter the expiration date</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <fieldset class="fieldset">
+                                <div class="img_wrapper">
+                                    <img src="./icons/card_back.svg" alt="card_back" />
+                                </div>
+                                <input name="cvv" class="input input_cvv" placeholder="CVV" required autocomplete="cc-csc" inputmode="numeric" />
+                            </fieldset>
+                            <div class="info">
+                                <div class="errors error_cvv"></div>
+                                <div class="hints">
+                                    <img src="./icons/info.svg" alt="info" />
+                                    <span class="hint_text">Enter the security code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <p class="required">* Required all Fields</p>
+                <div class="btn_container">
+                    <button type="button" class="buttons btn_back">Back</button>
+                    <button form="form" class="buttons btn_continue">Continue</button>
+                </div>
+            </section>
+        </div>
+        <script type="module" src="./script.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<svg class="hint-icon" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="8" cy="8" r="7" fill="#424242" stroke="none"></circle>
+                                        <text
+                                            x="8"
+                                            y="11"
+                                            text-anchor="middle"
+                                            fill="#FFFFFF"
+                                            font-size="12"
+                                            font-weight="bold"
+                                            font-family="Arial, sans-serif"
+                                        >
+                                            i
+                                        </text>
+                                    </svg>
